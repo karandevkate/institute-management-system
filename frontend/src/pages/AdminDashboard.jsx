@@ -164,7 +164,7 @@ const DashboardOverview = () => {
     <div>
       <div className="mb-8">
         <h2 className="text-3xl font-headline font-bold text-slate-900 tracking-tight">Executive Dashboard</h2>
-        <p className="text-slate-500 font-body mt-1">Overview of the Academic Atelier performance and activities.</p>
+        <p className="text-slate-500 font-body mt-1">Overview of the CPV Management System performance and activities.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">

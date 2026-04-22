@@ -1,50 +1,52 @@
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\model\Batch.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\security\WebSecurityConfig.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\model\ERole.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\repository\TaskRepository.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\model\ETaskStatus.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\exception\GlobalExceptionHandler.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\payload\request\TaskRequest.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\security\jwt\AuthEntryPointJwt.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\security\jwt\AuthTokenFilter.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\payload\response\CourseDto.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\repository\MaterialRepository.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\security\services\UserDetailsImpl.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\payload\request\LoginRequest.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\payload\response\MessageResponse.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\controller\AdminController.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\model\EMaterialType.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\service\TrainerService.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\service\StudentService.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\controller\StudentController.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\payload\request\BatchRequest.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\security\services\UserDetailsServiceImpl.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\repository\BatchRepository.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\service\StudentServiceImpl.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\ImsBackendApplication.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\repository\StudentTaskRepository.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\controller\AuthController.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\service\AdminServiceImpl.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\config\DataInitializer.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\payload\request\SignupRequest.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\payload\response\BatchDto.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\service\EmailService.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\service\AdminService.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\security\jwt\JwtUtils.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\service\TrainerServiceImpl.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\exception\ResourceNotFoundException.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\model\StudentTask.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\model\User.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\model\Task.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\payload\request\MaterialRequest.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\controller\TrainerController.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\model\Course.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\payload\response\UserDto.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\repository\UserRepository.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\exception\AppException.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\service\TrialExpiryService.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\payload\request\UpdateTaskStatusRequest.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\model\Material.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\payload\response\JwtResponse.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\repository\CourseRepository.java
-E:\Project\antigravtiy\cpv-batch-management\backend\src\main\java\com\academic\atelier\util\DtoMapper.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\repository\BatchRepository.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\security\jwt\AuthTokenFilter.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\response\UserDto.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\service\StudentServiceImpl.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\request\UpdateTaskStatusRequest.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\request\MaterialRequest.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\controller\AuthController.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\model\Course.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\repository\MaterialRepository.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\model\StudentTask.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\model\Material.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\controller\TrainerController.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\controller\AdminController.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\exception\ResourceNotFoundException.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\response\BatchDto.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\response\JwtResponse.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\service\StudentService.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\model\User.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\model\Batch.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\request\TaskRequest.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\model\Task.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\repository\StudentTaskRepository.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\service\EmailService.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\security\jwt\AuthEntryPointJwt.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\service\TrainerService.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\util\DtoMapper.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\model\EMaterialType.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\config\DataInitializer.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\request\SignupRequest.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\repository\UserRepository.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\model\ERole.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\security\services\UserDetailsImpl.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\request\BatchRequest.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\request\ForgotPasswordRequest.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\response\CourseDto.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\security\jwt\JwtUtils.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\model\ETaskStatus.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\repository\TaskRepository.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\ImsBackendApplication.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\security\WebSecurityConfig.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\exception\GlobalExceptionHandler.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\request\LoginRequest.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\response\MessageResponse.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\exception\AppException.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\controller\StudentController.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\service\AdminService.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\repository\CourseRepository.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\service\TrainerServiceImpl.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\security\services\UserDetailsServiceImpl.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\service\TrialExpiryService.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\payload\request\ResetPasswordRequest.java
+D:\Project\CPV Batch Management System\backend\src\main\java\com\academic\cpv\service\AdminServiceImpl.java

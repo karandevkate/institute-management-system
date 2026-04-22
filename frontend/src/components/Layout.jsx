@@ -51,7 +51,7 @@ const Layout = ({ children, roleTitle }) => {
               <span className="material-symbols-outlined">school</span>
             </div>
             <div>
-              <h1 className="font-headline text-lg font-extrabold text-[#4F46E5]">Academic Atelier</h1>
+              <h1 className="font-headline text-lg font-extrabold text-[#4F46E5]">CPV Management System</h1>
               <p className="font-body uppercase tracking-wider text-[11px] text-slate-500 dark:text-slate-400">{roleTitle || 'Management Suite'}</p>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Layout = ({ children, roleTitle }) => {
             <input
               type="text"
               className="bg-transparent border-none focus:ring-0 text-sm font-body w-full text-slate-600 dark:text-slate-200 outline-none"
-              placeholder="Search Atelier..."
+              placeholder="Search CPV..."
             />
           </div>
           <div className="flex items-center gap-4">

@@ -1,0 +1,41 @@
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.restore
+release.properties
+local.settings.xml
+profiles.xml
+jdk.hotswap.yaml
+.rebel.xml.bak
+scripts/
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# IDEs
+.idea/
+*.iml
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/

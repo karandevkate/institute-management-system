@@ -296,7 +296,7 @@ const StudentDashboard = () => {
   if (loading) {
     return (
       <Layout roleTitle="Candidate Workspace">
-        <div className="text-center py-16 text-slate-500">Loading your atelier...</div>
+        <div className="text-center py-16 text-slate-500">Loading your CPV...</div>
       </Layout>
     );
   }

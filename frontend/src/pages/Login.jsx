@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import api from '../services/api';
 
@@ -22,7 +22,7 @@ const Login = () => {
       } else {
         await api.post('/auth/signup', {
           ...formData,
-          role: formData.role
+          role: 'ROLE_STUDENT'
         });
         setIsLogin(true);
         alert('Registration successful! Please login.');
@@ -31,12 +31,6 @@ const Login = () => {
       setError(err.response?.data?.message || 'Authentication failed');
     }
   };
-
-  const roles = [
-    { id: 'ROLE_ADMIN', label: 'Admin', icon: 'admin_panel_settings' },
-    { id: 'ROLE_TRAINER', label: 'Trainer', icon: 'psychology' },
-    { id: 'ROLE_STUDENT', label: 'Student', icon: 'person' }
-  ];
 
   return (
     <div className="bg-background text-on-background min-h-screen flex items-center justify-center p-6">
@@ -51,7 +45,7 @@ const Login = () => {
               <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-lg text-primary">
                 <span className="material-symbols-outlined">school</span>
               </div>
-              <span className="font-headline font-extrabold text-white text-xl tracking-tight">Academic Atelier</span>
+              <span className="font-headline font-extrabold text-white text-xl tracking-tight">CPV Management System</span>
             </div>
           </div>
           <div className="relative z-10">
@@ -79,36 +73,13 @@ const Login = () => {
                 <span className="material-symbols-outlined">school</span>
               </div>
             </div>
-            <h2 className="font-headline text-3xl font-bold text-on-surface mb-2">{isLogin ? 'Welcome Back' : 'Join the Atelier'}</h2>
-            <p className="text-on-surface-variant font-medium">Log in to manage your atelier dashboard.</p>
+            <h2 className="font-headline text-3xl font-bold text-on-surface mb-2">{isLogin ? 'Welcome Back' : 'Join CPV'}</h2>
+            <p className="text-on-surface-variant font-medium">Log in to manage your CPV dashboard.</p>
           </div>
 
           {error && <div className="mb-6 p-4 bg-error/10 text-error rounded-xl text-sm font-semibold">{error}</div>}
 
           <form onSubmit={handleSubmit} className="space-y-6">
-            {!isLogin && (
-              <div className="space-y-2">
-                <label className="block text-xs font-bold uppercase tracking-widest text-slate-400 px-1">Institutional Role</label>
-                <div className="grid grid-cols-3 gap-3">
-                  {roles.map((role) => (
-                    <button
-                      key={role.id}
-                      type="button"
-                      onClick={() => setFormData({ ...formData, role: role.id })}
-                      className={`flex flex-col items-center justify-center py-4 px-2 rounded-xl border-2 transition-all duration-200 ${
-                        formData.role === role.id
-                          ? 'border-primary bg-primary/5 text-primary'
-                          : 'border-transparent bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high'
-                      }`}
-                    >
-                      <span className="material-symbols-outlined mb-1">{role.icon}</span>
-                      <span className="text-[11px] font-bold uppercase tracking-tight">{role.label}</span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
-
             <div className="space-y-2">
               <label className="block text-xs font-bold uppercase tracking-widest text-slate-400 px-1" htmlFor="username">Username or Email</label>
               <div className="relative group">
@@ -149,8 +120,8 @@ const Login = () => {
 
             <div className="space-y-2">
               <div className="flex justify-between items-center px-1">
-                <label className="block text-xs font-bold uppercase tracking-widest text-slate-400" htmlFor="password">Access Key</label>
-                {isLogin && <a className="text-xs font-bold text-primary hover:text-primary-container transition-colors" href="#">Forgot Access?</a>}
+                <label className="block text-xs font-bold uppercase tracking-widest text-slate-400" htmlFor="password">Password</label>
+                {isLogin && <Link className="text-xs font-bold text-primary hover:text-primary-container transition-colors" to="/forgot-password"> Forgot Password?</Link>}
               </div>
               <div className="relative group">
                 <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400 group-focus-within:text-primary transition-colors">
@@ -185,7 +156,7 @@ const Login = () => {
                 className="text-sm font-bold text-primary hover:underline"
                 onClick={() => setIsLogin(!isLogin)}
               >
-                {isLogin ? "Don't have an account? Join the Atelier" : "Already have an account? Authenticate"}
+                {isLogin ? "Don't have an account? Join CPV" : "Already have an account? Authenticate"}
               </button>
             </div>
           </form>
@@ -193,7 +164,7 @@ const Login = () => {
       </div>
       <footer className="fixed bottom-8 left-0 w-full text-center pointer-events-none">
         <p className="text-[10px] uppercase tracking-[0.2em] font-bold text-slate-400">
-          © 2024 Atelier IMS • Encrypted Institutional Workspace
+          © 2024 CPV IMS • Encrypted Institutional Workspace
         </p>
       </footer>
     </div>

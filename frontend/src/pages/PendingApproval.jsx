@@ -27,7 +27,7 @@ const PendingApproval = () => {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary-container flex items-center justify-center text-white shadow-[0_12px_32px_rgba(53,37,205,0.12)]">
               <span className="material-symbols-outlined">school</span>
             </div>
-            <span className="font-headline text-xl font-extrabold tracking-tight text-primary">Academic Atelier</span>
+            <span className="font-headline text-xl font-extrabold tracking-tight text-primary">CPV Management System</span>
           </div>
 
           {/* Central Content Card */}
@@ -88,7 +88,7 @@ const PendingApproval = () => {
           {/* Footer Meta */}
           <footer className="mt-12 opacity-60">
             <p className="font-label text-[10px] uppercase tracking-[0.2em] font-semibold text-on-surface-variant">
-              Application ID: ATELIER-SR-{Math.floor(100000 + Math.random() * 900000)}
+              Application ID: CPV-SR-{Math.floor(100000 + Math.random() * 900000)}
             </p>
           </footer>
         </div>

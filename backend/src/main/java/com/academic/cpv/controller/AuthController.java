@@ -59,25 +59,27 @@ public class AuthController {
             userRepository.save(user);
 
             // --- MODIFICATION START ---
-            // Get the frontend URL from environment variables, default to localhost for development
+            // Get the frontend URL from environment variables, default to localhost for
+            // development
             String frontendUrl = env.getProperty("FRONTEND_URL", "http://localhost:5173");
             String resetLink = frontendUrl + "/reset-password?token=" + token;
             // --- MODIFICATION END ---
 
             emailService.sendEmail(user.getEmail(), "Password Reset Request",
-                    "To reset your password, click the link below:
-" + resetLink); // Corrected newline character
+                    "To reset your password, click the link below:" + resetLink);
 
             return ResponseEntity.ok(new MessageResponse("Password reset link sent to your email."));
         } catch (Exception e) {
             // Log the exception for debugging purposes
             e.printStackTrace(); // Consider using a proper logger in a real application
-            return ResponseEntity.internalServerError().body(new MessageResponse("Error: Failed to send email. Please check your SMTP configuration."));
+            return ResponseEntity.internalServerError()
+                    .body(new MessageResponse("Error: Failed to send email. Please check your SMTP configuration."));
         }
     }
 
     @PostMapping("/reset-password")
-    public ResponseEntity<?> resetPassword(@Valid @RequestBody com.academic.cpv.payload.request.ResetPasswordRequest request) {
+    public ResponseEntity<?> resetPassword(
+            @Valid @RequestBody com.academic.cpv.payload.request.ResetPasswordRequest request) {
         User user = userRepository.findByResetPasswordToken(request.getToken())
                 .orElseThrow(() -> new RuntimeException("Error: Invalid or expired token"));
 
@@ -106,7 +108,8 @@ public class AuthController {
             if (!user.isApproved() && user.isTrialExpired()) {
                 return ResponseEntity
                         .status(org.springframework.http.HttpStatus.FORBIDDEN)
-                        .body(new MessageResponse("Error: Your 7-day trial has expired. Please contact admin for full access."));
+                        .body(new MessageResponse(
+                                "Error: Your 7-day trial has expired. Please contact admin for full access."));
             }
         }
 
